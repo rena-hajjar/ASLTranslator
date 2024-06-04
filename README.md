@@ -80,8 +80,8 @@ Goals:
 
 
 Steps to be taken:
-[x] Set up webcam with react-webcam
-[] Detect hand 'objects' with TF Object Detection (trained on COCO)
-[] process WSASL dataset (label)
-[] Train new TF model to on the WSASL dataset 
-[] connect ends...
+- [x] Set up webcam with react-webcam
+- [] Detect hand 'objects' with TF Object Detection (trained on COCO)
+- [] process WSASL dataset (label)
+- [] Train new TF model to on the WSASL dataset 
+- [] connect ends...
