@@ -68,3 +68,20 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+### Project Planning Steps
+
+Goals: 
+1. Capture real time images
+2. Detect hands and gestures for translation
+3. Translation to LANGUAGE OF CHOICE (starting with English)
+4. Transcribe language and/or asl to speech
+
+
+Steps to be taken:
+[x] Set up webcam with react-webcam
+[] Detect hand 'objects' with TF Object Detection (trained on COCO)
+[] process WSASL dataset (label)
+[] Train new TF model to on the WSASL dataset 
+[] connect ends...
